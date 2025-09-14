@@ -35,6 +35,33 @@ html, body {
     padding: 20px;
 }
 /*main content*/
+#about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#about-me h1 {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #013a89;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#about-me li {
+    color:#013a89;
+    font-weight: 700;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.images img {
+    border-radius: 50%;
+}
+.images p {
+    margin: 78px;
+}
 
 /* Footer */
 .footer {
