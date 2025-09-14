@@ -56,8 +56,8 @@ html, body {
     font-weight: 700;
 }
 .images {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: .25fr 1fr;
     padding: 1em;
 }
 .images img {
