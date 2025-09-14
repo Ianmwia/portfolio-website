@@ -35,6 +35,23 @@ html, body {
     padding: 20px;
 }
 /*main content*/
+.form-container {
+    display: grid;
+    border: 3px solid black;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    align-content: center;
+}
+.contact-header {
+    display: inline-block;
+}
+form {
+    display: grid;
+    gap: 10px;
+    margin: 8px;
+}
 
 /* Footer */
 .footer {
