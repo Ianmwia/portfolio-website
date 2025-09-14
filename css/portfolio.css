@@ -28,6 +28,10 @@ html, body {
     color: white;
     text-decoration: none;
 }
+.navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 
 /*main space footer and header*/
 .main {

@@ -24,6 +24,10 @@ html, body {
     color: white;
     text-decoration: none;
 }
+.navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 
 .hero {
     background: url("../assets/portfolio-hero\ 1.jpg") no-repeat center center/cover;
