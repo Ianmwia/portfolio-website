@@ -64,7 +64,10 @@ html, body {
     border-radius: 50%;
 }
 .images p {
-    margin: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
 }
 
 /* Footer */
